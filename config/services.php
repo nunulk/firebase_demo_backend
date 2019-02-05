@@ -40,4 +40,8 @@ return [
         ],
     ],
 
+    'firebase' => [
+        'auth_key_file' => env('FIREBASE_AUTH_KEY_FILE'),
+        'admin_account' => env('FIREBASE_ADMIN_ACCOUNT'),
+    ],
 ];
